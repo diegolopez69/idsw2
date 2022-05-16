@@ -12,6 +12,7 @@ class Machine
 class Administrator
 
 Machine -l- Product : has
+Machine -- Money: has
 Product -- Money : costs
 Administrator -l- Machine : manages
 @enduml
